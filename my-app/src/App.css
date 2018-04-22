@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.App-intro strong{
+  color: #4245f4;
+}
+.App-intro, .App-learning2, .App-learning3, .App-learning4 {
+  border: 1px dotted #4245f4;
+  text-align: left;
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.wrap-purple {
+  border: 1px solid #800080;
+  text-align: left;
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+  background: #D8BFD8;
+}
+
+
+.App-copy { color: #4245f4}
+.app-copy-purple {color: #800080;}
+.fed-pic-wrap { margin-left: 0;  }
+.fed-pic-wrap li { display: inline; padding-right: 10px; }
+button {
+  padding: 10px 15px;
+  font-weight: bold;
+  background: #e1ffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 ); /* IE6-9 */}
+
+
+
+
+ul li ul li, ol li ul li {padding: 5px;}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,125 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'create-react-app' ]
+2 info using npm@5.6.0
+3 info using node@v8.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData create-react-app
+8 silly fetchNamedPackageData create-react-app
+9 silly mapToRegistry name create-react-app
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'create-react-app',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'create-react-app',
+12 silly mapToRegistry   name: 'create-react-app',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/create-react-app
+14 verbose request uri https://registry.npmjs.org/create-react-app
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 14:58:34
+17 verbose request id 79ba45ddbfde3c4b
+18 verbose etag "5a9d0aed-1108d"
+19 verbose lastModified Mon, 5 Mar 2018 9:16:29 GMT
+20 http request GET https://registry.npmjs.org/create-react-app
+21 http 304 https://registry.npmjs.org/create-react-app
+22 verbose headers { date: 'Mon, 05 Mar 2018 14:58:34 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: '"5a9d0aed-1108d"',
+22 verbose headers   age: '5530',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-lcy19221-LCY',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1520261914.298393,VS0,VE1',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Mon, 05 Mar 2018 14:58:34 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: '"5a9d0aed-1108d"',
+23 silly get     age: '5530',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lcy19221-LCY',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1520261914.298393,VS0,VE1',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/create-react-app from cache
+25 verbose get saving create-react-app to C:\Users\spatel\AppData\Roaming\npm-cache\registry.npmjs.org\create-react-app\.cache.json
+26 verbose correctMkdir C:\Users\spatel\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule create-react-app@1.5.2 checking installable status
+40 silly cache add args [ 'create-react-app', null ]
+41 verbose cache add spec create-react-app
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'create-react-app',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'create-react-app',
+42 silly cache add   name: 'create-react-app',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed create-react-app@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for create-react-app
+45 info addNameTag [ 'create-react-app', 'latest' ]
+46 silly mapToRegistry name create-react-app
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'create-react-app',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'create-react-app',
+49 silly mapToRegistry   name: 'create-react-app',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/create-react-app
+51 verbose addNameTag registry:https://registry.npmjs.org/create-react-app not in flight; fetching
+52 verbose get https://registry.npmjs.org/create-react-app not expired, no request
+53 silly addNameTag next cb for create-react-app with tag latest
+54 silly addNamed create-react-app@1.5.2
+55 verbose addNamed "1.5.2" is a plain semver version for create-react-app
+56 silly cache afterAdd create-react-app@1.5.2
+57 verbose afterAdd C:\Users\spatel\AppData\Roaming\npm-cache\create-react-app\1.5.2\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\spatel\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\spatel\AppData\Roaming\npm-cache\create-react-app\1.5.2\package\package.json written
+60 verbose stack TypeError: Class constructor  cannot be invoked without 'new'
+60 verbose stack     at doUntar (C:\Users\spatel\AppData\Roaming\nvm\v6.8.1\node_modules\npm\lib\fetch-package-metadata.js:343:33)
+60 verbose stack     at doGunzip (C:\Users\spatel\AppData\Roaming\nvm\v6.8.1\node_modules\npm\lib\fetch-package-metadata.js:339:5)
+60 verbose stack     at ReadStream.OD (C:\Users\spatel\AppData\Roaming\nvm\v6.8.1\node_modules\npm\lib\fetch-package-metadata.js:315:7)
+60 verbose stack     at emitOne (events.js:116:13)
+60 verbose stack     at ReadStream.emit (events.js:211:7)
+60 verbose stack     at addChunk (_stream_readable.js:263:12)
+60 verbose stack     at readableAddChunk (_stream_readable.js:250:11)
+60 verbose stack     at ReadStream.Readable.push (_stream_readable.js:208:10)
+60 verbose stack     at fs.read (fs.js:2042:12)
+60 verbose stack     at callback (C:\Users\spatel\AppData\Roaming\nvm\v6.8.1\node_modules\npm\node_modules\graceful-fs\polyfills.js:100:19)
+61 verbose cwd C:\jg-sites\study\learnreact
+62 error Windows_NT 10.0.15063
+63 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "create-react-app"
+64 error node v8.9.4
+65 error npm  v5.6.0
+66 error Class constructor  cannot be invoked without 'new'
+67 error If you need help, you may report this error at:
+67 error     <https://github.com/npm/npm/issues>
+68 verbose exit [ 1, true ]
